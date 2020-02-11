@@ -1,0 +1,109 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #d16ba5, #c772b7, #b97bc8, #a684d6, #908de1, #799bee, #5ca8f7, #37b4fc, #00c8ff, #00daff, #28ebfa, #5ffbf1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span h2 {
+    color: #2C2A28;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: .5%;
+}
+
+.App {
+    text-align: center;
+    background-color: transparent;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(223, 7, 93);
+}
+
+p {
+    color: white;
+}
+
+.todo-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.item {
+    background-color: transparent;
+    text-align: center;
+    font-size: 2rem;
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.itemchecked {
+    background-color: transparent;
+    text-decoration: line-through;
+    text-align: center;
+    font-size: 2rem;
+    width: 50%;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+input {
+    font-size: 2rem;
+    color: black;
+    padding: 1%;
+}
+
+.form {
+    background-color: transparent;
+    flex-direction: column;
+}
+
+.add-button {
+    background-color: #464555;
+    color: white;
+    font-size: 2rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+}
+
+.clear-button {
+    background-color: #464555;
+    color: white;
+    display: flex;
+    font-size: 2rem;
+    padding: .5rem 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    cursor: pointer;
+}
